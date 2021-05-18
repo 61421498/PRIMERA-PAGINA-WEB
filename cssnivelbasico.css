@@ -5,7 +5,8 @@
 } */
 .cabeza1{
     align-items: center;
-    background-color: rgba(229, 233, 18, 0.1);
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.1); */
     padding-left: 150px 0;
     font-size: 18px;
     margin-bottom: 20px;
@@ -19,17 +20,9 @@
     list-style: none;
 }
 .logos{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: rgba(250, 250, 250,0.2));
-    margin-right: 2px;
-    margin:0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%
-    color: #ffffff;
-    transition: all 0.5s ease;
+position: relative;
+margin-top: 20px;
+width: 1000px;
 }
 nav{
     position: relative;
@@ -56,9 +49,74 @@ nav a{
 .BUTTON{
     padding: 100px;
 }
-#BO12{
-    
+/* .imagen{
+    display: inline-block;
+    position: relative;
 }
+.imagen.active{
+    position: fixed;
+    width: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen img{
+    z-index: 1;
+}
+.imagen.active::after{
+    content:'';
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-color: (0,0,0,0.75);
+    z-index: 0;
+} */
+
+/* .ver{
+    width: 600px;
+    height: 600px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.veremos{
+    width: 500px
+    height: 400px
+    display: flex
+}
+.veremos input{
+display: none;
+}
+.radiofirst{
+    width: 20%;
+    transition: 2s;
+}
+.radiofirst img{
+    width: 600px;
+    height: 600px;
+}
+.navradioauto{
+position: absolute;
+width: 800px;
+margin-top: -40px;
+display: flex;
+justify-content: center;
+}
+.manual-bt{
+    border: 2px solid chocolate
+    padding: 5px;
+    boder-radius: 10px;
+    cursor: pointer
+    transition: 1s
+}
+.manual-bt:not(:last-child){
+margin-right: 40px;
+}
+.manual-bt:hover{
+    background:chocolate;
+} */
 
 nav:hover a{
 color: yellow;
@@ -89,6 +147,8 @@ body {
     margin-right: auto;
     margin-bottom: 50px;
     padding: 10px;
+    justify-content: center;
+    align-items: center;
 }
 /* ARTICULOS ULOS */
 section {
