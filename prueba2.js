@@ -12,16 +12,16 @@
 // }
 
 
-var vaedad = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
-var $vaedad = listaNumeros[6] + listaNumeros[10]
-document.getElementById('resultadosuma').innerHTML="el resultado de la suma es" + $vaedad;
+// var vaedad = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+// var $vaedad = listaNumeros[6] + listaNumeros[10]
+// document.getElementById('resultadosuma').innerHTML="el resultado de la suma es" + $vaedad;
 
-funtion Mensajesuma(){
-  if($vaedad == 16)
-  alert("el resultado de la suma correcta" + $vaedad);
-}
-funtion _SumaNumeros (nu1, nu2){
-  var $sumaTotal = nu1 + nu2;
-  alert("La suma de los numeros es: " + $sumaTotal)
+// funtion Mensajesuma(){
+//   if($vaedad == 16)
+//   alert("el resultado de la suma correcta" + $vaedad);
+// }
+// funtion _SumaNumeros (nu1, nu2){
+//   var $sumaTotal = nu1 + nu2;
+//   alert("La suma de los numeros es: " + $sumaTotal)
 
-}  
+// }  
